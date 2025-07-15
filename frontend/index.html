@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeNova</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CodeNova - Assistant IA</h1>
+  <select id="task">
+    <option value="code">Génération de code</option>
+    <option value="debug">Débogage</option>
+    <option value="test">Tests unitaires</option>
+    <option value="formation">Formation IA/ML</option>
+  </select>
+  <textarea id="content" placeholder="Colle ton code ou ta question ici..."></textarea>
+  <button onclick="askCodeNova()">Envoyer</button>
+  <pre id="response"></pre>
+  <script src="script.js"></script>
+</body>
+</html>
